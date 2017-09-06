@@ -20,7 +20,7 @@
       <li class="nav-item">
         <router-link class="nav-link" to="/roles"><i class="fa fa-tags"></i> Some Content</router-link>
       </li>
-      <li class="nav-item"
+      <li class="nav-item">
         <router-link class="nav-link" to="/permissions"><i class="fa fa-lock"></i> Some Content</router-link>
       </li>
       <li class="nav-item">
@@ -66,10 +66,17 @@ export default {
 }
 
 /* Sidebar navigation */
-/*.sidebar {
+.sidebar {
   padding-left: 0;
   padding-right: 0;
-}*/
+}
+
+.nav{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap:nowrap;
+
+}
 
 .sidebar .nav {
   margin-bottom: 20px;
@@ -85,6 +92,9 @@ export default {
 
 .sidebar .nav-link {
   border-radius: 0;
+}
+.nav-item{
+  padding: 0px 5px 0px 5px
 }
 
 .nav-link{
