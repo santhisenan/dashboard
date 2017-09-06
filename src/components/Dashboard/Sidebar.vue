@@ -1,13 +1,13 @@
 <template lang="html">
   <nav class="d-none d-sm-block bg-light sidebar">
+    <div class="mx-auto">
+      <div class="mx-auto admin-avatar-container">
+        <img class="admin-avatar mx-auto" src="http://i.pravatar.cc/100?img=51" alt="">
+      </div>
+      <br>
+      <h5 class="text-capitalize text-center">Welcome Admin</h5>
+    </div>
     <ul class="nav nav-pills flex-column">
-        <div class="mx-auto">
-          <div class="mx-auto admin-avatar-container">
-            <img class="admin-avatar mx-auto" src="http://i.pravatar.cc/100?img=51" alt="">
-          </div>
-          <br>
-          <h5 class="text-capitalize">Welcome Admin</h5>
-        </div>
       </li>
       <li class="nav-item">
         <hr>

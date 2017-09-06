@@ -3,19 +3,19 @@
     <div class="row">
 
       <div class="col-sm-3 col-md-3 card-container">
-        <panel link="/students" icon="fa fa-graduation-cap" title="Students" :count="count1"></panel>
+        <panel link="/students" icon="fa fa-graduation-cap" title="Prop" :count="count1"></panel>
       </div>
 
       <div class="col-sm-3 col-md-3 card-container">
-        <panel link="/users" icon="fa fa-users" title="Users" :count="count2"></panel>
+        <panel link="/users" icon="fa fa-users" title="Prop" :count="count2"></panel>
       </div>
 
       <div class="col-sm-3 col-md-3 card-container">
-        <panel link="/roles" icon="fa fa-tags" title="Roles" :count="count3"></panel>
+        <panel link="/roles" icon="fa fa-tags" title="Prop" :count="count3"></panel>
       </div>
 
       <div class="col-sm-3 col-md-3 card-container">
-        <panel link="/permissions" icon="fa fa-user-secret" title="Permissions" :count="count4"></panel>
+        <panel link="/permissions" icon="fa fa-user-secret" title="Prop" :count="count4"></panel>
       </div>
 
     </div>

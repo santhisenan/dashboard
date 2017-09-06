@@ -6,7 +6,7 @@
       <Sidebar isHome="true" ></Sidebar>
     </div>
     <div class="col-sm-9 col-md-10">
-      <h1 class="head-text">LOGO</h1>
+      <h1 class="head-text">DASHBOARD</h1>
       <hr></hr>
       <Dashboard></Dashboard>
     </div>

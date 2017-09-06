@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar fixed-top justify-content-between">
     <a class="navbar-brand">
-      <router-link to="/" class="brand-link">Dashboard</router-link>
+      <router-link to="/" class="brand-link">LOGO</router-link>
     </a>
     <form class="form-inline" v-if="isLoggedIn">
       <span class="login-text text-capitalize"><span class="fa fa-user"></span><strong> Admin</strong> </span>
